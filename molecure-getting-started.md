@@ -122,6 +122,7 @@ tasks/main.yml
 ---
 
 `molecule converge`
+
 ```
 --> Validating schema /home/newgen/my-new-role/molecule/default/molecule.yml.
 Validation completed successfully.
