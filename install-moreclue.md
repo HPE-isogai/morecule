@@ -27,6 +27,11 @@ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 sudo yumconfig-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 sudo yum install docker-ce
 ```
+1.1 install python dependency
+```
+pip install docker-py
+```
+
 post install
 ```
 sudo systemctl enable docker.service
