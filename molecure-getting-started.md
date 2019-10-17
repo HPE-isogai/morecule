@@ -31,3 +31,8 @@ verifier:
     name: flake8
 ```
 
+- task create
+```
+cd ~/my-new-role
+molecure create
+```
