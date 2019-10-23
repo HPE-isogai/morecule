@@ -1,4 +1,5 @@
 https://molecule.readthedocs.io/en/stable/installation.html#centos-7
+https://redhatnordicssa.github.io/how-we-test-our-roles
 
 # Prerequite
 - Ansible Tower Server  
