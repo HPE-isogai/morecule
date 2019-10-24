@@ -16,11 +16,6 @@ https://redhatnordicssa.github.io/how-we-test-our-roles
 $ sudo yum install -y epel-release
 $ sudo yum install -y gcc python-pip python-devel openssl-devel libselinux-python
 ```
-1.1. Install Morecule
-```
-pip install --upgrade setuptools
-pip install --user molecule
-```
 1.1. Install Docker
 ```
 sudo yum remove docker docker-common docker-selinux docker-engine-selinux docker-engine docker-ce
@@ -28,6 +23,11 @@ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 sudo yumconfig-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 sudo yum install docker-ce
 gpasswd -a <username> docker
+```
+1.1. Install Morecule
+```
+pip install --upgrade setuptools
+pip install --user molecule
 ```
 1.1 install python dependency
 ```
