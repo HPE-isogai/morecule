@@ -36,5 +36,7 @@ pip install psutil
 pip install --user ansible testinfra molecule docker
 deactivate # exit virtualenv
 ```
-
+## additional procedure
+sudo repoquery -l libselinux-python
+cp /usr/lib64/python2.7/site-packages/selinux ~/molecule_ansible27/lib/python2.7/site-packages/
 
