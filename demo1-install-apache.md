@@ -52,3 +52,7 @@ $ tree
 
 ## Execute test
 `molecule test -s docker`
+
+## Miscellaneous
+https://bugzilla.redhat.com/show_bug.cgi?id=1661427
+
