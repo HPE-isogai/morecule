@@ -41,13 +41,13 @@ $ tree
 
 13 directories, 17 files
 ```
-1. Write test code
+4. Write test code  
 `cat molecule/shared/tests/test_default.py`
-1. set parameter
+1. set parameter  
 `cat defaults/main.yml`
-1. Write task
+1. Write task  
 `cat tasks/main.yml`
-1. Write handlers
+1. Write handlers  
 `cat handlers/main.yml`
 
 ## Execute test
