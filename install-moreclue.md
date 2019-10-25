@@ -8,6 +8,7 @@ https://redhatnordicssa.github.io/how-we-test-our-roles
 -- install ansible tower  
 -- yum update 
 -- yum install gcc openssl-devel
+-- **selinux disabled**
 
 # install Procedure
 1. install ansible tower
@@ -38,5 +39,6 @@ deactivate # exit virtualenv
 ```
 ## additional procedure
 sudo repoquery -l libselinux-python
-cp /usr/lib64/python2.7/site-packages/selinux ~/molecule_ansible27/lib/python2.7/site-packages/
+cd /usr/lib64/python2.7/site-packages/selinux
+cp -p ./* ~/molecule_ansible27/lib/python2.7/site-packages/
 
