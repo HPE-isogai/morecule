@@ -46,7 +46,7 @@ $ tree
 1. set parameter
 `cat defaults/main.yml`
 1. Write task
-`cat tasks/mail.yaml`
+`cat tasks/main.yml`
 1. Write handlers
 `cat handlers/main.yml`
 
