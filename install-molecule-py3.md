@@ -62,11 +62,17 @@ rh-python36-scipy.x86_64                     0.19.1-2.el7        rhel-server-rhs
 ```
 
 ## Set Virtualenv
-python3.6 -m virtualenv molecule_ansible36
+```
+$ python3.6 -m virtualenv molecule_ansible36
 $ source ~/molecule_ansible36/bin/activate
 $ pip --version
 pip 19.3.1 from /home/newgen/molecule_ansible36/lib/python3.6/site-packages/pip (python 3.6)
+```
 
 ## Install Molecule and dependencies
+```
 $ pip install psutil
 $ pip install ansible testinfra molecule docker
+```
+
+Done!
