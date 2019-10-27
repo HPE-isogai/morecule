@@ -12,9 +12,8 @@ $ sudo yum install rh-python36
 $ whereis python
 python: /usr/bin/python /usr/bin/python2.7 /usr/bin/python2.7-config /usr/bin/python3.6 /usr/bin/python3.6m /usr/lib/python2.7 /usr/lib/python3.6 /usr/lib64/python2.7 /usr/lib64/python3.6 /etc/python /usr/include/python2.7 /usr/include/python3.6m /opt/rh/rh-python36/root/usr/bin/python /opt/rh/rh-python36/root/usr/bin/python3.6 /opt/rh/rh-python36/root/usr/bin/python3.6m /opt/rh/rh-python36/root/usr/bin/python3.6-config /opt/rh/rh-python36/root/usr/bin/python3.6m-config /opt/rh/rh-python36/root/usr/bin/python3.6m-x86_64-config /usr/share/man/man1/python.1.gz
 
-$ sudo yum list rh-python36\*
-$ sudo yum list rh-python36\*
-読み込んだプラグイン:product-id, subscription-manager
+$ sudo yum list rh-python36\*   
+読み込んだプラグイン:product-id, subscription-manager  
 インストール済みパッケージ
 rh-python36.x86_64                           2.0-1.el7           @rhel-server-rhscl-7-rpms
 rh-python36-python.x86_64                    3.6.3-7.el7         @rhel-server-rhscl-7-rpms
