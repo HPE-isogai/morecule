@@ -58,7 +58,6 @@ rh-python36-python-tools.x86_64              3.6.3-7.el7         rhel-server-rhs
 rh-python36-python-wheel.noarch              0.30.0a0-1.el7      rhel-server-rhscl-7-rpms
 rh-python36-scipy.x86_64                     0.19.1-2.el7        rhel-server-rhscl-7-rpms
 
-
 ## Set Virtualenv
 python3.6 -m virtualenv molecule_ansible36
 $ source ~/molecule_ansible36/bin/activate
