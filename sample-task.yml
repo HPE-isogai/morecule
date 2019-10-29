@@ -1,0 +1,11 @@
+# tasks file for user-add
+- name: add group
+  group:
+    name: "{{ groupname }}"
+    gid: "{{ gid }}"
+
+- name: add user
+  user:
+    name: "{{ username }}"
+    uid: "{{ uid }}"
+    group: "{{ groupname }}"
