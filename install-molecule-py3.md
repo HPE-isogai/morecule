@@ -4,7 +4,7 @@
 - yum update
 
 ## Python 3 Install
-$ sudo yum-config-manager --enable rhel-server-rhscl-7-rpms
+$ sudo yum-config-manager --enable rhel-server-rhscl-7-rpms  
 $ sudo yum-config-manager --enable rhel-server-rhscl-beta-7-rpms
 
 $ sudo yum install rh-python36
